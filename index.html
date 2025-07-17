@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Laptop Page</title>
+
+  <!-- Include Bootstrap CSS & Icons (CDN) -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 55;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+     background-color:rgb(231, 215, 215);
+    }
+
+    nav {
+      background-color: grey;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 25px;
+      height: 60px;
+    }
+
+    nav .logo {
+      font-size: 1.5em;
+      font-weight: bold;
+      
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      margin: 45;
+      padding: 30;
+    }
+
+    nav ul li {
+      margin-left: 20px;
+    }
+
+    nav ul li a {
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #b90000;
+    }
+
+    header {
+      background-color: #000000;
+      color: rgb(255, 255, 255);
+      text-align: center;
+      padding: 65px 60px;
+    }
+
+    main {
+      max-width: 1024px;
+      margin: 20px auto;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(169, 125, 125, 0.1);
+    }
+
+    .content {
+      flex: 1; /* This pushes footer to bottom */
+    }
+
+    footer {
+      background-color: #222;
+      color: white;
+      text-align: center;
+      padding: 30px 0;
+    }
+
+    footer a {
+      color: #e7f1f3;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    .navbar {
+  background-color: #9a0606;
+  padding: 20px 0; /* Increase top and bottom padding */
+  font-size: 18px;  /* Increase font size */
+}
+
+.navbar .nav-links li a {
+  padding: 10px 15px;
+}
+  </style>
+</head>
+<body style="font-family: position sans-serif;">
+
+  <!-- Navbar -->
+  <nav>
+    <div a.class="logo">MySite</div>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Account</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>Welcome to My Laptop-Friendly Webpage</h1>
+  </header>
+
+
+  <!-- Main content -->
+  <div class="content">
+    <main style="background-color:rgb(216, 226, 230);">
+      <h1>Get the highlights.</h1>
+
+
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="https://photos5.appleinsider.com/gallery/product_pages/176-hero.jpg" class="d-block w-100" alt="Not Found">
+      <div class="carousel-caption d-none d-md-block">
+        <h5 style="color: aliceblue;">Best Sale Of The Year</h5>
+        <p style="color: azure;">Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="https://www.apple.com/v/macbook-pro-14-and-16/a/images/meta/macbook-pro-14-and-16_overview__fz0lron5xyuu_og.png" class="d-block w-100" alt="Not Found">
+      <div class="carousel-caption d-none d-md-block">
+      
+        <p style="font-size:large;"><b>Strikingly thin and fast so you can work,play or create anywhere.</b><br>From ₹99900.00*<br></p>          
+ </div>
+    </div>
+    <div class="carousel-item">
+      <img src="https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/macbook-air-13-digitalmat-gallery-1-202503?wid=728&hei=666&fmt=png-alpha&.v=RWZDcE1Pa2MvREpxR2hwendCZFpRa2EvQmI5ZjZseVhPSEJZVkYxZ09JdFpUdXE4MkhYYjRLTVptRHE3NGNZdHhaVXN2UmVLZWxyY01GTDZmcDYxbitZbnd2dEloRUI0QkxmQVJESllzWlN5ekw2b3VPdnZLWU14ZXc2aDkvRXI" class="d-block w-100" alt="Not Found" style="height: 600px;">
+      <div class="carousel-caption d-none d-md-block">
+    
+        <p><b>MacBook Air 13-inch </b><br><b>From ₹7908.00/mo. with instant cashback Footnote and No Cost EMI Footnote </b><br>or ₹99900.00Footnote.</p>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+      <h2 >Features</h2>
+      <ul>
+        <li style="color: brown;"><h5>M4 Chip</h5></li>
+        <li><b>Up to 6x faster than the most popular Intel-based iMac2</b></li>
+        <li><b>Up to 2.1x faster than iMac with M1 chip on demanding creative workflows3</b></li>
+        <li><b>Up to 4.5x faster than the most popular Windows all-in-one4</b></li>
+        
+      </ul>
+    </main>
+  </div>
+
+
+
+<div class="container my-5">
+  <h4 class="mb-4">Compare with similar items</h4>
+  <div class="row flex-nowrap overflow-auto">
+
+    <!-- Product Card 1 -->
+    <div class="col-10 col-sm-6 col-md-4 col-lg-3 mb-3 me-3">
+      <div class="card h-100 text-center border-0">
+        <img src="https://m.media-amazon.com/images/I/316ArzLeJ2L._AC_.jpg" class="card-img-top img-fluid p-3" alt="Item 1">
+        <div class="card-body">
+          <h6 class="card-title">Apple MacBook Air Laptop:<br> Apple M1 chip, 13.3-inch</h6>
+          <button class="btn btn-warning fw-bold rounded-pill">Add to cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Card 2 -->
+    <div class="col-10 col-sm-6 col-md-4 col-lg-3 mb-3 me-3">
+      <div class="card h-100 text-center border-0">
+        <img src="https://m.media-amazon.com/images/I/416e1B8V75L._AC_.jpg" class="card-img-top img-fluid p-3" alt="Item 2">
+        <div class="card-body">
+          <h6 class="card-title">Apple 2025 MacBook Air:<br> M4 chip, 13-inch</h6>
+          <button class="btn btn-warning fw-bold rounded-pill">Add to cart</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Product Card 3 -->
+    <div class="col-10 col-sm-6 col-md-4 col-lg-3 mb-3 me-3">
+      <div class="card h-100 text-center border-0">
+        <img src="https://m.media-amazon.com/images/I/41CvNGqdI3L._AC_.jpg" class="card-img-top img-fluid p-3" alt="Item 3">
+        <div class="card-body">
+          <h6 class="card-title">2022 Apple MacBook Air:<br> M2 chip, 13.6-inch</h6>
+          <button class="btn btn-warning fw-bold rounded-pill">Add to cart</button>
+        </div>
+      </div>
+    </div>
+
+
+
+    <!-- Product Card 3 -->
+    <div class="col-10 col-sm-6 col-md-4 col-lg-3 mb-3 me-3">
+      <div class="card h-100 text-center border-0">
+        <img src="https://m.media-amazon.com/images/I/41+0wuOoe0L._AC_.jpg" class="card-img-top img-fluid p-3" alt="Item 3">
+        <div class="card-body">
+          <h6 class="card-title">2022 Apple MacBook Air Laptop :<br> M2 chip, 13.6-inch</h6>
+          <button class="btn btn-warning fw-bold rounded-pill">Add to cart</button>
+        </div>
+      </div>
+    </div>
+    <!-- Add more cards as needed -->
+  </div>
+</div>
+
+
+<div class="container text-center my-5">
+  <!-- Top Image -->
+  <img src="https://www.apple.com/v/mac/home/cg/images/overview/select/product_tile_mba_13_15__fx2g3qlubdym_large_2x.png" alt="MacBook Image" class="img-fluid mb-4" style="max-width: 800px;">
+
+  <!-- Laptop Cards Row -->
+  <div class="row justify-content-center">
+    <!-- Card 1 -->
+    <div class="col-md-5 mx-2 mb-4">
+      
+      <h3 class="fw-bold">MacBook Air 13” and 15”</h3>
+      <p class="fw-semibold">M4 chip</p>
+      <p>Strikingly thin and fast so you can work, play or create anywhere.</p>
+      <p><strong>From ₹99,900.00*</strong></p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="#" class="btn btn-link">Buy ›</a>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-md-5 mx-2 mb-4">
+      <h3 class="fw-bold">MacBook Pro 14” and 16”</h3>
+      <p class="fw-semibold">M4, M4 Pro or M4 Max chip</p>
+      <p>The most advanced Mac laptops for demanding workflows.</p>
+      <p><strong>From ₹1,69,900.00*</strong></p>
+      <div class="d-flex justify-content-center gap-3">
+        <a href="#" class="btn btn-link">Buy ›</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <!-- Footer -->
+  <footer style="background-color: rgb(36, 25, 25);">
+    <div class="container">
+      <div class="row text-start">
+        <div class="col-md-4 mb-3">
+          <h5 class="fw-bold">Apple Premium Reseller</h5>
+          <p class="mb-1">Authorised Service Provider,</p>
+          <p class="mb-1"> Aptronix, Palladium,</p>                  
+          <p class="mb-1"> <a href="https://maps.app.goo.gl/EM7BujEwbQw8dDRf6">Mumbai</a></p>
+
+        </div>
+      
+
+        <div class="col-md-4 mb-3">
+          <h5 class="fw-bold">Quick links</h5>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Bye Now</a></li>
+            <li><a href="https://maps.app.goo.gl/FFAVjpooAKutiUPB7">Location</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 mb-3">
+          <h5 class="fw-bold">Connect Us</h5>
+          <p><i class="bi bi-facebook"></i><a href="https://www.facebook.com/marketplace/chennai/apple-macbooks/"> Facebook</a></p>
+          <p><i class="bi bi-instagram"></i><a href="https://www.instagram.com/apple/"> Instagram</a></p>
+          <p><i class="bi bi-twitter"></i><a href="https://x.com/apple"> Twitter</a></p>
+        </div>
+      </div>
+
+      <hr class="bg-light">
+      <p class="text-center mb-0">Copyright © 2025 Apple Inc. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
